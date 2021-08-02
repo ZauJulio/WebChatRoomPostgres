@@ -44,8 +44,8 @@
 Ex.: **table**(_pk_, attr, attr, **_fk_**);
 
 - **user**(_id_, name, email, banned);
-- **room**(_id_, name, created\*at, \*\*\_closed*at**\*, **\_created_by*\*\*);
-- **message**(_id_, content, sended\*at, \*\*\_userId**\*, **_roomId_\*\*);
+- **room**(_id_, name, created_at, closed_at, **_created\_by_**);
+- **message**(_id_, content, sended_at, **_userId_**, **_roomId_**);
 - **member**(_id_, **_userId_**, **_roomId_**);
 
 ## 1.2 conceitual
